@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   # ルートに各アクションを設定
-  get 'hakase', to: 'application#hakase'
-  root "application#hakase"
+
+  root "application#hello"
 end

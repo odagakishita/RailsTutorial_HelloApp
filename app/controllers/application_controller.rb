@@ -1,5 +1,8 @@
 class ApplicationController < ActionController::Base
     #アクションを定義する
+    def goodmorning
+        render html: "おはよう！"
+    end
     def hello
         render html: "¡Hola, mundo!"
     end
